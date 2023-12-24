@@ -1,0 +1,54 @@
+/* .nav-button{
+
+} */
+.nav-button:hover{
+background-color: rgba(0, 21, 139, 0.636);
+}
+
+input{
+    background-color: rgba(128, 128, 128, 0.325);
+    border: none;
+    height: 100px;
+    line-height: 2;
+}
+input:focus{
+    border: 1px solid black;
+}
+
+.links:hover{
+    text-decoration: underline solid rgba(0, 0, 0, 0.419) 2px;
+    scale: 0.9;
+};
+
+.visually-hidden:not(:focus):not(:active){
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    
+}
+
+.pusher:hover{
+    scale: 0.1;
+    background-color: rgba(0, 255, 255, 0.199);
+    border-radius: 1px solid white;
+}
+
+.nav-btn{
+padding-inline-end: 13%;
+margin-block-end: 1%;
+}
+
+.nav-btn:hover{
+    scale: 0.9;
+    background-color: #56537c37;
+}
+/* @font-face {
+    font-family: lato;
+    src: url(/First\ Semester/lato
+    );
+} */
